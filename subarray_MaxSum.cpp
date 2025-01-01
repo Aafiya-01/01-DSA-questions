@@ -12,7 +12,7 @@ int main(){
         for(int end=srt; end<n; end++){
                   curr_sum += arr[end];
                   max_sum= max(curr_sum, max_sum);
-        }    
+        }   
     }
     cout<<"max is: "<< max_sum;
     return 0;
