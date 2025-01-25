@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Sum of first column
+// Sum of first Row
 
 int main(){
     vector<vector<int>> mat=
@@ -16,7 +16,7 @@ int main(){
         for(int j=0; j<mat[i].size(); j++){
             sum += mat[i][j];
         }
-        cout<<"sum of first col is: "<<sum <<endl;
+        cout<<"sum of first row is: "<<sum <<endl;
         break;
     }
 }
