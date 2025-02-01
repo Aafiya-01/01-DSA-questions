@@ -8,7 +8,7 @@ public:
 
         int r=0, c= n-1;
 
-        while(r<m m&& c>= 0){
+        while(r<m && c>= 0){
              if(target == mat[r][c]){
                 return true;
              }else if(target <mat[r][c]){
