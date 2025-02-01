@@ -1,4 +1,4 @@
-// Sum both diagonals
+// Multiplication of two matrices
 
 #include<iostream>
 #include<vector>
