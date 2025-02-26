@@ -20,6 +20,7 @@ int main(){
 
     int num1, num2;
     if(findpair(arr, num1, num2, n, target)){ cout<<num1<<" "<<num2<<endl;}
-    else cout<<"no pair found";
+    else {cout<<"no pair found";}
+
     return 0;
 }
