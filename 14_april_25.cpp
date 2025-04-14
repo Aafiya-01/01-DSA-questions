@@ -4,6 +4,7 @@
 #include <algorithm>
 using namespace std;
 
+
 // Function to count the number
 // of digits in an integer 'n'.
 int countDigits(int n){
@@ -27,13 +28,6 @@ int countDigits(int n){
 
 
 
-int main() {
-    int N = 329823;
-    cout << "N: "<< N << endl;
-    int digits = countDigits(N);
-    cout << "Number of Digits in N: "<< digits << endl;
-    return 0;
-}
 
                                 
                             
