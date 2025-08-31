@@ -23,7 +23,6 @@ int main(){
             }
         }
     }
-
     for(int res : ans){
         cout<<res<<" ";
     }
