@@ -31,6 +31,4 @@ int main(){
     int uniqueElement = findUnique(arr);
 
     cout <<uniqueElement;
-    return 0;
-
 }
