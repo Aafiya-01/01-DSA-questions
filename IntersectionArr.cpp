@@ -6,8 +6,7 @@
 #include<algorithm>
 #include<vector>
 
-using namespace std;
-
+using namespace std; 
 int main(){
     vector<int> a = {1,3,2,4};
     vector<int> b = {3,4,6,3};
