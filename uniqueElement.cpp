@@ -10,12 +10,12 @@ using namespace std;
 //  same se same ko cancel krdeta h
 
 int findUnique(vector<int> &arr){
-    int ans = 0;
+    int answer = 0;
 
     for(int i =0; i<arr.size(); i++){
-        ans = ans^arr[i];
+        answer = answer^arr[i];
     }
-    return ans;
+    return answer;
 }
 
 
